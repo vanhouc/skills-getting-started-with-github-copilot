@@ -31,7 +31,11 @@ document.addEventListener("DOMContentLoaded", () => {
       </ul>
     </div>
   `
-            : `<p><strong>Participants:</strong> <em>None yet</em></p>`;
+            : `
+    <div class="participants-section">
+      <p><strong>Participants:</strong> <em>None yet</em></p>
+    </div>
+  `;
 
         activityCard.innerHTML = `
           <h4>${name}</h4>
